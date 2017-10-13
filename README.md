@@ -1,4 +1,4 @@
-# How to setup the test automation framework for the Rightmove demo
+# How to setup the test automation framework for the Yieldify demo
 
 ## Installing Oracle VM VirtualBox on your Windows 7/8/10 machine:
 
@@ -44,15 +44,15 @@ Once you've got Ruby, you'll next need to install Git so you can clone a copy of
 
 Once git is installed, you can now clone this directory by typing the following:
 
-`git clone https://github.com/Sam-Levene/Rightmove.git`
+`git clone https://github.com/Sam-Levene/Yieldify.git`
 
 Next, ensure you're in the directory that you've just created by typing the following:
 
-`cd Rightmove`
+`cd Yieldify`
 
 OR
 
-`cd ~\Rightmove`
+`cd ~\Yieldify`
 
 Either one works.
 
@@ -79,8 +79,12 @@ http://download.virtualbox.org/virtualbox/5.1.26/VBoxGuestAdditions_5.1.26.iso
 
 Each test is run using the following command:
 
-`cucumber`
+`chrome=true cucumber`
+or
+`firefox=true cucumber`
 
 OR, by using tags (@tagName), we can specify which tests we want to run.
 
-`cucumber --tags @tagName`
+`chrome=true cucumber --tags @tagName`
+or
+`firefox=true cucumber --tags @tagName`
