@@ -73,7 +73,7 @@ https://developers.supportbee.com/blog/setting-up-cucumber-to-run-with-Chrome-on
 
 Ensure you have guest additions installed; by downloading the following iso and installing it onto your VM:
 
-http://download.virtualbox.org/virtualbox/5.1.26/VBoxGuestAdditions_5.1.26.iso
+http://download.virtualbox.org/virtualbox/5.1.28/VBoxGuestAdditions_5.1.28.iso
 
 ## Running and modifying the tests:
 
