@@ -65,7 +65,7 @@ Feature: Testing the functionality of Google Keep.
 	# Areas we could check, such as restoring the Note or deleting it completely.
 
 	# Our final test is to ensure we can log out of the system without seeing the internal
-	# Google Keep records, so that nobody else can see hte Notes apart from the user
+	# Google Keep records, so that nobody else can see the Notes apart from the user
 	# Who created them.
 
 	@Scenario_05 @Passing
